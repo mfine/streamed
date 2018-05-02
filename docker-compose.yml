@@ -1,0 +1,5 @@
+web:
+  build: .
+  command: rackup -s puma -p 4567 -o 0.0.0.0
+  ports:
+    - 80:4567
